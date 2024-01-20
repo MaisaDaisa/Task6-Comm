@@ -1,0 +1,29 @@
+
+.list-none {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.button-filled{
+    border-radius: 2px;
+    border: 1px solid var(--primary-400, #6C63FF);
+    background: var(--primary-400, #6C63FF);
+}
+.button-trans{
+    border-radius: 2px;
+    background-color: transparent;
+    border: 1px solid var(--primary-400, #6C63FF);
+}
+.learn-more{
+    padding: 0px 5px;
+    background: rgba(197, 194, 255, 0.50);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#nav-buttons{
+    gap: 16px;
+}
